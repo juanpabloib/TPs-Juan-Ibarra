@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro - Mi web.</title>
+</head>
+<body>
+    <h1>Formulario de registro - Mi web.</h1>
+    <form action="" method="GET">
+            <p>Ingrese su nombre y apellido:</p>
+            <input type="text" id="nombre" name="nombre" required>
+            <p>Ingrese su apellido:</p>
+            <input type="text" id="apellido" name="apellido" required>
+            <p>Indique su sexo:</p>
+                <input type="radio" id="masculino" name="sexo" value="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label>
+            <p>Indique su correo electrónico:</p>
+                <input type="text" id="email" name="email" required>
+            <p>
+                <input type="checkbox" id="novedades" name="novedades" checked>
+                <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input type="checkbox" id="condiciones" name="condiciones" required>
+                <label for="condiciones">Declaro haber leído y aceptar las <a href="#">condiciones generales</a> del programa y la normativa sobre protección de datos</label>
+            </p>
+            <p>Indique su pais de residencia:</p>
+                <select id="pais" name="pais">
+                    <option value="1" selected>Argentina</option>
+                    <option value="2">Bolivia</option>
+                    <option value="3">Brasil</option>
+                    <option value="4">Chile</option>
+                    <option value="5">Colombia</option>
+                    <option value="6">Ecuador</option>
+                    <option value="7">Guyana</option>
+                    <option value="8">Paraguay</option>
+                    <option value="9">Perú</option>
+                    <option value="10">Surinam</option>
+                    <option value="11">Uruguay</option>
+                    <option value="12">Venezuela</option>
+                </select>
+            <p>Indique la provincia de residencia:</p>
+                <input type="text" id="provincia" name="provincia">
+            <p>Indique su localidad de residencia:</p>
+                <input type="text" id="localidad" name="localidad">
+            <p>Indique su direccion de residencia:</p>
+                <input type="text" id="direccion" name="direccion">
+            <p>Indique el numero de su domicilio:</p>
+                <input type="text" id="numero" name="numero">
+            <p>Indique su departamento de residencia (Si se encuentra en uno):</p>
+                <input type="text" id="departamento" name="departamento">
+            </p>
+            <p>Crea una contraseña:</p>
+                <input type="password" id="password" name="password" required>
+            <p>Repita la contraseña:</p>
+                <input type="password" id="repetir_password" name="repetir_password" required>
+            <p>Indique su estado civil:</p>
+                <select id="estado_civil" name="estado_civil">
+                    <option value="13" selected>Soltero/a</option>
+                    <option value="14">Casado/a</option>
+                    <option value="15">Divorciado/a</option>
+                    <option value="16">Viudo/a</option>
+                    <option value="17">Separado/a</option>
+                    <option value="18">Unión convivencial</option>
+                </select>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
