@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script - Ejercicio 7</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Java Script - Ejercicio 7</h1>
+    <select name="procesador" id="procesador">
+        <option value="inteli3">Intel Core i3</option>
+        <option value="inteli5">Intel Core i5</option>
+        <option value="inteli7">Intel Core i7</option>
+    </select>
+    <button onclick="procesar()">Sumar</button>
+    <select name="monitor" id="monitor">
+        <option value="samsung20">Samsung 20"</option>
+        <option value="samsung22">Samsung 22"</option>
+        <option value="samsung24">Samsung 24"</option>
+    </select>
+    <button onclick="monitor()">Sumar</button>
+        <select name="disco" id="disco">
+        <option value="disco500">Disco 500GB</option>
+        <option value="disco1000">Disco 1TB</option>
+        <option value="disco3000">Disco 3TB</option>
+    </select>
+    <button onclick="disco()">Sumar</button>
+    <button onclick="calcularPrecioTotal()">Calcular precio total</button>
+
+    <input type="text" id="precioTotal" readonly placeholder="Total aparecerá aquí">
+</body>
+</html>

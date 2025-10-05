@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script - Ejercicio 8</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Java Script - Ejercicio 8</h1>
+    <div>
+        <label>¿Qué significa la sigla RAM?</label>
+        <select id="pregunta1">
+            <option value="0">Read Access Memory</option>
+            <option value="1">Rapid Access Module</option>
+            <option value="2">Random Allocation Memory</option>
+            <option value="3">Random Access Memory</option> <!-- Correcta -->
+        </select>
+    </div>
+    <div>
+        <label>¿Cuál es la función principal de la CPU?</label>
+        <select id="pregunta2">
+            <option value="0">Procesar instrucciones y realizar cálculos</option> <!-- Correcta -->
+            <option value="1">Almacenar datos permanentemente</option>
+            <option value="2">Mostrar imágenes en pantalla</option>
+            <option value="3">Conectar periféricos USB</option>
+        </select>
+    </div>
+    <div>
+        <label>¿Qué tipo de almacenamiento es más rápido?</label>
+        <select id="pregunta3">
+            <option value="0">SSD (Disco de Estado Sólido)</option> <!-- Correcta -->
+            <option value="1">HDD (Disco Duro Mecánico)</option>
+            <option value="2">DVD</option>
+            <option value="3">Memoria USB</option>
+        </select>
+    </div>
+    <div>
+        <label>¿Qué característica diferencia un HDD de un SSD?</label> <!-- Correcta -->
+        <select id="pregunta4">
+            <option value="0">El HDD tiene partes móviles y platos giratorios</option>
+            <option value="1">El HDD usa chips de memoria flash</option>
+            <option value="2">El SSD tiene partes móviles y platos giratorios</option>
+            <option value="3">El SSD es más lento pero más barato</option>
+        </select>
+    </div>
+    <button onclick="verificacion()">Verificar</button>   
+</body>
+</html>
